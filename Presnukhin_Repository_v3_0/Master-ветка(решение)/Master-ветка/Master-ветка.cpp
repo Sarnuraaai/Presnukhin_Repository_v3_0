@@ -27,7 +27,10 @@ int CalcInt(float x, float y)
 
 float CalcFloat(float x, float y)
 {
-
+    float func = 0, integer = 0;
+    func = modf(abs(x - y), &integer);
+    cout << endl << "Дробная часть разности вещественных чисел равна = " << func << endl << endl;
+    return 0;
 }
 
 int main()
