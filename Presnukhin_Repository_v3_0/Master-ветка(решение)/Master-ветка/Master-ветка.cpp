@@ -5,7 +5,9 @@ using namespace std;
 
 float EnterNumberX(float x)
 {
-
+    cout << endl << "Введите вещественное число х" << endl << endl;
+    cin >> x;
+    return x;
 }
 
 float EnterNumberY(float y)
