@@ -19,7 +19,10 @@ float EnterNumberY(float y)
 
 int CalcInt(float x, float y)
 {
-
+    float func = 0, integer = 0;
+    func = modf(abs(x - y), &integer);
+    cout << endl << "Целая часть разности вещественных чисел равна = " << integer << endl << endl;
+    return 0;
 }
 
 float CalcFloat(float x, float y)
