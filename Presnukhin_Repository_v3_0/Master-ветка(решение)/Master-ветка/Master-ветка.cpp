@@ -10,6 +10,9 @@ float EnterNumberX(float x)
 
 float EnterNumberY(float y)
 {
+    cout << endl << "Введите вещественное число y" << endl << endl;
+    cin >> y;
+    return y;
 }
 
 int CalcInt(float x, float y)
